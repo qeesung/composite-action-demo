@@ -22,5 +22,4 @@ runs:
     - uses: qeesung/composite-sub-action1-demo@v1.0.5
       with:
         who-to-greet: You Dad ${{ inputs.who-to-greet }}
-    - run: goodbye.sh
-      shell: bash
+
