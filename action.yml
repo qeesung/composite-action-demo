@@ -21,6 +21,6 @@ runs:
       shell: bash
     - uses: qeesung/composite-sub-action1-demo@v1.0.2
       with:
-        args: You Dad ${{ inputs.who-to-greet }}
+        who-to-greet: You Dad ${{ inputs.who-to-greet }}
     - run: goodbye.sh
       shell: bash
